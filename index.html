@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STOP WATCH</title>
+    <style>
+      body {
+        background-color: rgb(255, 173, 20);
+        text-align: center;
+      }
+      h1 {
+        display: inline-block;
+        width: 200px;
+        background-color: rgb(254, 4, 54);
+        color: orange;
+      }
+      button {
+        background-color: rgb(250, 1, 45);
+        color: white;
+        width: 100px;
+        font-family: "Times New Roman", Times, serif;
+        height: 50px;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>STOP WATCH</h1>
+    <div>
+      <h1 id="hour">0</h1>
+      <h1 id="min">0</h1>
+      <h1 id="sec">0</h1>
+      <h1 id="msec">0</h1>
+    </div>
+
+    <div>
+      <button onclick="start()">Start</button>
+      <button onclick="pause()">Pause</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
